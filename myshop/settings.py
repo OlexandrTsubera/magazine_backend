@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-j5k2(%_t#^rwdo+!b+2gr=&taidxd^9dkmm+1jb@u9&)whh6v0'
+SECRET_KEY = '#############################################33'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -86,8 +86,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'magazine',
-        'USER': 'fort',
-        'PASSWORD': 'wert1995'
+        'USER': '######',
+        'PASSWORD': '######'
     }
 }
 
@@ -151,10 +151,10 @@ CART_SESSION_ID = 'cart'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51OFLYcFXbIeHHoPS0YMv8ApW45ZFqjnWPgH8kvndXk8TxEVzyVziXzRvwb4HCyp2GuZ2M4UqmQZTcwUwcYkZwzCN00UPxWNudO'
-STRIPE_SECRET_KEY = 'sk_test_51OFLYcFXbIeHHoPS1E3CHQf9yf7544iWblePiy4ptqGmWTMtkNzUVaJLxUxZ9KitNbmaWxQmkbRMSJZ1Mqb2R2CD00Nh5jgo6X'
+STRIPE_PUBLISHABLE_KEY = '###################################################33'
+STRIPE_SECRET_KEY = '############################################################################3'
 STRIPE_API_VERSION = '2022-08-01'
-STRIPE_WEBHOOK_SECRET = 'whsec_7b77ad8ca5427eb87fca7d5935958da967ab5894bec53c865222bf3012e44f3f'
+STRIPE_WEBHOOK_SECRET = '#############################################################33'
 
 STATIC_ROOT = BASE_DIR / 'static'
 
